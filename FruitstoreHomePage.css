@@ -1,0 +1,70 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    background-color: gold;
+    width:100%;
+    text-align: center;
+}
+/*h1 has been formatted.*/
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    background-color: gold;
+    width:100%;
+    text-align:center
+}
+/*h2 has been formatted.*/
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8pt;
+}
+/*The font has been changed.*/
+body{
+text-align: center;
+background-color: lightblue;
+border:solid;
+border: greenyellow;
+border:1px;
+align-items: center;
+}
+.element{
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+    background-color: lightblue;
+    padding:2px
+}
+/*The color tranisitions from light blue.*/
+.element:hover{
+   background-color: blue;
+   padding: 10px;
+}
+/*The color transition have been changed to blue.*/
+image{
+    float:inline-start;
+    color-interpolation-filters: sRGB;
+    background-color: goldenrod;
+    border: 1pt;
+    align-items: center;
+    }
+/*A color filter has been applied to the image.*/
+ol{
+    color:goldenrod;
+    font-size: 9 pts;
+}
+/*The submit button has been customised.*/
+form{
+    background-color: white;
+    border: 1px;
+    border:lightsalmon;
+    width:20%;
+    align-content: left;
+}
+/*The form has been customised.*/
+header{
+    text-align:center
+}
+footer{
+    text-align: center;
+}
+nav{
+    background-color: gray;
+}

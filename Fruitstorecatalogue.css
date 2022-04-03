@@ -1,0 +1,71 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    background-color: gold;
+    width:100%;
+    height: auto;
+    text-align: center;
+}
+/*h1 has been formatted.*/
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    background-color: goldenrod;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+/*h2 font-size and background color has been changed.*/
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 9pt;
+}
+/*The font is different h2 and h3.*/
+table{
+    border: 2pt;
+    border-width:50%;
+    text-align: center;
+    box-sizing: border-box;
+    align-content: center;
+    border-left: 1px;
+    border-right: 1px;
+}
+/*The table has been formatted.*/
+.box{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+image{
+    padding: 1pt;
+    border:2pt;
+    background-color: yellow;
+    color-interpolation-filters: linearRGB;
+    align-items: center;
+}
+/*The images have color filters.*/
+ul{
+    text-align: center;
+    border: 1pt;
+}
+body{
+    text-align: center;
+    background-color: lightblue;
+    align-items: center;
+    border: greenyellow;
+    border: 1px;
+    border:solid
+}
+/*The text has been centered.*/
+nav{
+    background-color: grey;
+}
+/*The footer has been centered.*/
+footer{
+    text-size-adjust: 8pts;
+    text-align: center;
+}
+/*The header has been centered.*/
+header{
+    text-align: center;
+}

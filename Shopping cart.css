@@ -1,0 +1,178 @@
+*{
+ box-sizing: border-box;
+}
+/*The box-sizing has border-box.*/
+.body{
+ width:100%;
+ height: 100%;
+ margin: 0;
+ background-color: lightblue;
+ font-family: Arial, Helvetica, sans-serif;
+}
+/*The width of body is 100%. The height of body is 100%.*/
+.Cart{
+width: 500px;
+height: 300px;
+margin: 80px auto;
+background: lightgray;
+box-shadow: 1px 2px 3px 1px gold;
+border-radius: 6px;
+display: flex;
+flex-direction: column;
+}
+/*The background color is lightgray. The width is 300px and the height is 200px. The cart is gold.*/
+.title{
+    height: 60px; 
+    border-bottom: 1px solid black;
+    padding: 20px 30px;
+    color:black;
+    font-size: 18px;
+    font-weight: 400;
+}
+/*The title is black. The title has height is 60px. The border bottom is black and 1px.*/
+.item{
+    padding:20px 30px;
+    height: 100px;
+    display: flex;
+}
+/*The item has a padding of 20px and 30px.*/
+.item:nth-child(3){
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+}
+/*The nth child has 1px solid black bottom and top bottom.*/
+.button{
+    position: relative;
+    padding: 30px;
+    margin: 60px;
+}
+/*The buttons has a padding is 30px and the margin 60px.*/
+.delete{
+    display: inline-block;
+    Cursor: pointer;
+}
+/*The delete display is inline-block. The cursor has pointer setting.*/
+.delete-btn{
+    width: 10px;
+    height: 10px;
+    background: no-repeat;
+    align-content: center;
+}
+/*The delete button has a width of 18px and a height 17px. The background has no-repeat center.*/
+.is-active{
+    animation-name: animate;
+    animation-duration: .10s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+}
+/*The is-active has an animation duration of .10s. The animation-timing-function is steps 28.*/
+@keyframes animate{
+    0%{background-position:left; }
+    50%{background-position: right; }
+    100%{background-position: right; }
+}
+/*The keyframes animate has a 50% background-position right. The 100% the background-position on the right.*/
+.image{
+    margin-right: 25px;
+    align-items: center;
+    width: 300px;
+    height:200px;
+}
+/*The image has margin-right has 25px. The align-items has been centered.*/
+.description{
+    padding-top: 10px;
+    margin-right: 60px;
+    width: 115px;
+}
+/*The description has padding-top has 10px. The margin-right has a 60px.*/
+.description span{
+    display: block;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+/*The description span display is a block. The font-size is 14px.*/
+.description span:first-child{
+    margin: 5px;
+}
+/*The description span: first-child the margin is 5px.*/
+.description span:last-child{
+    font-weight: 300;
+    margin-top: 8px;
+    color:black;
+}
+/*The description span: last-child the font-weight is 300.*/
+.quantity{
+    padding-top: 20px;
+    margin-right: 60px;
+}
+/*The padding-top is 20px. The margin-right is 60px.*/
+.quantity input{
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color:black;
+    font-weight: 300;
+}
+/*The quantity input the text is aligned to the center. The font-size 16px.*/
+button[class*=btn]{
+    width: 30px;
+    height: 30px;
+    background-color:lightcyan;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+}
+/*The button width is 30px and the height is 30px. The background-color is lightcyan.*/
+button:focus,
+imput:focus {
+    outline:0;
+}
+/*The button:focus has an outline.*/
+.total-price{
+    width: 83px;
+    padding: 27px;
+    text-align: center;
+    color:black;
+    font-size: 16px;
+    font-weight: 300;
+}
+/*The total-price width 83px, padding 27px and the is text-aligned to center.*/
+@media (max-width: 800px){
+    .shopping-cart{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+}
+/*The media max-width: 800px the width is 100%. The height is auto and the overflow is hidden.*/
+.item{
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*The item has has a height auto. The flex-wrap has a wrap.*/
+.image img{
+    width: 50%;
+}
+/*The image has img has width of 50%.*/
+.description{
+   width: 100%;
+   text-align: center;
+   margin: 6px 0;
+}
+/*The description has a width has a 100%. The text-alignment has been centered.*/
+.button{
+    margin-right: 20px;
+}
+/*The button has a margin-right of 20px.*/
+/*Resources:*/
+/*https://stackoverflow.com/*/
+/*https://api.jquery.com/*/
+/*https://w3school.com/*/
+/*https://api.jquery.com/*/
+/*https://dropbox.com/*/
+
+

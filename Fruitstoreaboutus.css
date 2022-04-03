@@ -1,0 +1,48 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    background-color: yellowgreen;
+}
+/*h1's background is yellowgreen.*/
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    background-color: yellowgreen;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10pt;
+    background-color: goldenrod;
+}
+/*The p has a different font and color.*/
+body{
+    text-align: center;
+    background-color: lightblue;
+    border:solid;
+    border:2px;
+    border:greenyellow
+}
+/*The text has been aligned and a border has been applied to the body.*/
+li{
+    border: 1px;
+    padding: 1px;
+}
+ol{
+    font-size: 15pt;
+    color:red
+}
+/*The ol font-size and color has been changed.*/
+ul{
+    font-size: 12pt;
+    color: orangered
+}
+image{
+    background-color: gold;
+    box-shadow: 2px;
+    border:1pt
+}
+/*The image's background-color is gold and the border is 1pt.*/
+nav{
+    background-color: gray
+}
+/*The Navbars background has been changrd to gray.*/
